@@ -1,0 +1,27 @@
+# Core
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+# Models
+lightgbm
+xgboost
+shap
+statsmodels
+prophet
+ruptures
+# NLP
+bertopic
+vaderSentiment
+# Notebooks
+jupyter
+nbformat
+nbconvert
+ipykernel
+# Scraping
+requests
+beautifulsoup4
+lxml
+pytest

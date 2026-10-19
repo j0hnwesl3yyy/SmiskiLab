@@ -1,0 +1,1282 @@
+{
+ "provenance": {
+  "series": "scraped",
+  "figures": "scraped",
+  "resale": "simulated",
+  "trends": "scraped",
+  "events": "scraped",
+  "reddit": "simulated"
+ },
+ "n_rows": 483,
+ "n_figures": 126,
+ "n_series": 18,
+ "models": [
+  {
+   "model": "Baseline: mean",
+   "mae": 21.76,
+   "rmse": 31.69,
+   "r2": -0.016,
+   "holdout_mae": 27.74,
+   "holdout_r2": -0.274
+  },
+  {
+   "model": "Baseline: rarity mean",
+   "mae": 12.43,
+   "rmse": 16.87,
+   "r2": 0.712,
+   "holdout_mae": 23.8,
+   "holdout_r2": 0.483
+  },
+  {
+   "model": "Linear (ridge)",
+   "mae": 11.73,
+   "rmse": 15.89,
+   "r2": 0.745,
+   "holdout_mae": 15.5,
+   "holdout_r2": 0.739
+  },
+  {
+   "model": "LightGBM",
+   "mae": 12.0,
+   "rmse": 15.98,
+   "r2": 0.742,
+   "holdout_mae": 20.19,
+   "holdout_r2": 0.547
+  },
+  {
+   "model": "XGBoost",
+   "mae": 11.98,
+   "rmse": 15.66,
+   "r2": 0.752,
+   "holdout_mae": 19.78,
+   "holdout_r2": 0.572
+  }
+ ],
+ "improvement_vs_rarity_baseline": {
+  "Linear (ridge)": {
+   "median": 0.075,
+   "lo": -0.005,
+   "hi": 0.147
+  },
+  "LightGBM": {
+   "median": 0.075,
+   "lo": -0.036,
+   "hi": 0.183
+  },
+  "XGBoost": {
+   "median": 0.078,
+   "lo": -0.057,
+   "hi": 0.207
+  }
+ },
+ "best_model": "Linear (ridge)",
+ "leakage": {
+  "random_cv_r2": 0.871,
+  "group_cv_r2": 0.742,
+  "random_cv_mae": 8.69,
+  "group_cv_mae": 12.0
+ },
+ "interval": {
+  "nominal": 0.8,
+  "holdout_coverage": 0.571
+ },
+ "holdout": {
+  "cutoff": "2025-01-01",
+  "n_series": 3,
+  "n_train_series": 15
+ },
+ "shap": [
+  {
+   "feature": "rarity_ord",
+   "mean_abs": 18.55,
+   "lo": 18.18,
+   "hi": 19.06,
+   "direction": "higher value -> higher premium"
+  },
+  {
+   "feature": "theme",
+   "mean_abs": 4.35,
+   "lo": 3.25,
+   "hi": 4.64,
+   "direction": "category-dependent"
+  },
+  {
+   "feature": "months_since_launch",
+   "mean_abs": 3.21,
+   "lo": 2.46,
+   "hi": 3.73,
+   "direction": "higher value -> lower premium"
+  },
+  {
+   "feature": "release_season",
+   "mean_abs": 1.38,
+   "lo": 1.25,
+   "hi": 1.84,
+   "direction": "category-dependent"
+  },
+  {
+   "feature": "launch_interest",
+   "mean_abs": 1.33,
+   "lo": 0.76,
+   "hi": 1.98,
+   "direction": "higher value -> higher premium"
+  },
+  {
+   "feature": "collab",
+   "mean_abs": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "direction": "mixed / non-monotonic"
+  },
+  {
+   "feature": "retail_usd",
+   "mean_abs": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "direction": "mixed / non-monotonic"
+  }
+ ],
+ "figures": [
+  {
+   "figure_id": "S06-05",
+   "pred_pct": 25.6,
+   "lo_pct": 5.5,
+   "hi_pct": 40.8,
+   "pred_usd": 16.32,
+   "lo_usd": 13.71,
+   "hi_usd": 18.28
+  },
+  {
+   "figure_id": "S01-07",
+   "pred_pct": 90.5,
+   "lo_pct": 63.5,
+   "hi_pct": 119.1,
+   "pred_usd": 24.74,
+   "lo_usd": 21.24,
+   "hi_usd": 28.46
+  },
+  {
+   "figure_id": "S06-07",
+   "pred_pct": 94.2,
+   "lo_pct": 67.3,
+   "hi_pct": 122.9,
+   "pred_usd": 25.23,
+   "lo_usd": 21.73,
+   "hi_usd": 28.95
+  },
+  {
+   "figure_id": "S09-03",
+   "pred_pct": 24.6,
+   "lo_pct": 4.5,
+   "hi_pct": 39.7,
+   "pred_usd": 16.19,
+   "lo_usd": 13.57,
+   "hi_usd": 18.15
+  },
+  {
+   "figure_id": "S15-05",
+   "pred_pct": 22.3,
+   "lo_pct": 2.2,
+   "hi_pct": 37.4,
+   "pred_usd": 15.88,
+   "lo_usd": 13.27,
+   "hi_usd": 17.85
+  },
+  {
+   "figure_id": "S08-06",
+   "pred_pct": 22.9,
+   "lo_pct": 2.8,
+   "hi_pct": 38.0,
+   "pred_usd": 15.97,
+   "lo_usd": 13.35,
+   "hi_usd": 17.93
+  },
+  {
+   "figure_id": "S16-01",
+   "pred_pct": 33.0,
+   "lo_pct": 12.9,
+   "hi_pct": 48.1,
+   "pred_usd": 17.27,
+   "lo_usd": 14.66,
+   "hi_usd": 19.24
+  },
+  {
+   "figure_id": "S15-06",
+   "pred_pct": 22.3,
+   "lo_pct": 2.2,
+   "hi_pct": 37.4,
+   "pred_usd": 15.88,
+   "lo_usd": 13.27,
+   "hi_usd": 17.85
+  },
+  {
+   "figure_id": "S02-03",
+   "pred_pct": 21.0,
+   "lo_pct": 0.9,
+   "hi_pct": 36.1,
+   "pred_usd": 15.71,
+   "lo_usd": 13.1,
+   "hi_usd": 17.68
+  },
+  {
+   "figure_id": "S09-02",
+   "pred_pct": 24.6,
+   "lo_pct": 4.5,
+   "hi_pct": 39.7,
+   "pred_usd": 16.19,
+   "lo_usd": 13.57,
+   "hi_usd": 18.15
+  },
+  {
+   "figure_id": "S08-07",
+   "pred_pct": 86.9,
+   "lo_pct": 60.0,
+   "hi_pct": 115.6,
+   "pred_usd": 24.28,
+   "lo_usd": 20.78,
+   "hi_usd": 28.0
+  },
+  {
+   "figure_id": "S02-01",
+   "pred_pct": 21.0,
+   "lo_pct": 0.9,
+   "hi_pct": 36.1,
+   "pred_usd": 15.71,
+   "lo_usd": 13.1,
+   "hi_usd": 17.68
+  },
+  {
+   "figure_id": "S16-02",
+   "pred_pct": 33.0,
+   "lo_pct": 12.9,
+   "hi_pct": 48.1,
+   "pred_usd": 17.27,
+   "lo_usd": 14.66,
+   "hi_usd": 19.24
+  },
+  {
+   "figure_id": "S15-07",
+   "pred_pct": 120.2,
+   "lo_pct": 93.2,
+   "hi_pct": 148.8,
+   "pred_usd": 28.6,
+   "lo_usd": 25.1,
+   "hi_usd": 32.32
+  },
+  {
+   "figure_id": "S02-02",
+   "pred_pct": 21.0,
+   "lo_pct": 0.9,
+   "hi_pct": 36.1,
+   "pred_usd": 15.71,
+   "lo_usd": 13.1,
+   "hi_usd": 17.68
+  },
+  {
+   "figure_id": "S06-06",
+   "pred_pct": 25.6,
+   "lo_pct": 5.5,
+   "hi_pct": 40.8,
+   "pred_usd": 16.32,
+   "lo_usd": 13.71,
+   "hi_usd": 18.28
+  },
+  {
+   "figure_id": "S16-03",
+   "pred_pct": 33.0,
+   "lo_pct": 12.9,
+   "hi_pct": 48.1,
+   "pred_usd": 17.27,
+   "lo_usd": 14.66,
+   "hi_usd": 19.24
+  },
+  {
+   "figure_id": "S09-01",
+   "pred_pct": 24.6,
+   "lo_pct": 4.5,
+   "hi_pct": 39.7,
+   "pred_usd": 16.19,
+   "lo_usd": 13.57,
+   "hi_usd": 18.15
+  },
+  {
+   "figure_id": "S11-07",
+   "pred_pct": 101.5,
+   "lo_pct": 74.6,
+   "hi_pct": 130.2,
+   "pred_usd": 26.17,
+   "lo_usd": 22.68,
+   "hi_usd": 29.9
+  },
+  {
+   "figure_id": "S07-01",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S18-05",
+   "pred_pct": 35.0,
+   "lo_pct": 14.9,
+   "hi_pct": 50.1,
+   "pred_usd": 17.53,
+   "lo_usd": 14.92,
+   "hi_usd": 19.5
+  },
+  {
+   "figure_id": "S18-04",
+   "pred_pct": 35.0,
+   "lo_pct": 14.9,
+   "hi_pct": 50.1,
+   "pred_usd": 17.53,
+   "lo_usd": 14.92,
+   "hi_usd": 19.5
+  },
+  {
+   "figure_id": "S18-03",
+   "pred_pct": 35.0,
+   "lo_pct": 14.9,
+   "hi_pct": 50.1,
+   "pred_usd": 17.53,
+   "lo_usd": 14.92,
+   "hi_usd": 19.5
+  },
+  {
+   "figure_id": "S18-02",
+   "pred_pct": 35.0,
+   "lo_pct": 14.9,
+   "hi_pct": 50.1,
+   "pred_usd": 17.53,
+   "lo_usd": 14.92,
+   "hi_usd": 19.5
+  },
+  {
+   "figure_id": "S18-01",
+   "pred_pct": 35.0,
+   "lo_pct": 14.9,
+   "hi_pct": 50.1,
+   "pred_usd": 17.53,
+   "lo_usd": 14.92,
+   "hi_usd": 19.5
+  },
+  {
+   "figure_id": "S17-07",
+   "pred_pct": 100.5,
+   "lo_pct": 73.6,
+   "hi_pct": 129.2,
+   "pred_usd": 26.04,
+   "lo_usd": 22.55,
+   "hi_usd": 29.77
+  },
+  {
+   "figure_id": "S07-06",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S07-05",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S17-06",
+   "pred_pct": 35.2,
+   "lo_pct": 15.1,
+   "hi_pct": 50.3,
+   "pred_usd": 17.56,
+   "lo_usd": 14.95,
+   "hi_usd": 19.52
+  },
+  {
+   "figure_id": "S01-01",
+   "pred_pct": 22.4,
+   "lo_pct": 2.3,
+   "hi_pct": 37.5,
+   "pred_usd": 15.9,
+   "lo_usd": 13.29,
+   "hi_usd": 17.87
+  },
+  {
+   "figure_id": "S07-07",
+   "pred_pct": 92.9,
+   "lo_pct": 66.0,
+   "hi_pct": 121.6,
+   "pred_usd": 25.06,
+   "lo_usd": 21.56,
+   "hi_usd": 28.78
+  },
+  {
+   "figure_id": "S17-05",
+   "pred_pct": 35.2,
+   "lo_pct": 15.1,
+   "hi_pct": 50.3,
+   "pred_usd": 17.56,
+   "lo_usd": 14.95,
+   "hi_usd": 19.52
+  },
+  {
+   "figure_id": "S07-04",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S01-02",
+   "pred_pct": 22.4,
+   "lo_pct": 2.3,
+   "hi_pct": 37.5,
+   "pred_usd": 15.9,
+   "lo_usd": 13.29,
+   "hi_usd": 17.87
+  },
+  {
+   "figure_id": "S17-04",
+   "pred_pct": 35.2,
+   "lo_pct": 15.1,
+   "hi_pct": 50.3,
+   "pred_usd": 17.56,
+   "lo_usd": 14.95,
+   "hi_usd": 19.52
+  },
+  {
+   "figure_id": "S08-01",
+   "pred_pct": 22.9,
+   "lo_pct": 2.8,
+   "hi_pct": 38.0,
+   "pred_usd": 15.97,
+   "lo_usd": 13.35,
+   "hi_usd": 17.93
+  },
+  {
+   "figure_id": "S17-03",
+   "pred_pct": 35.2,
+   "lo_pct": 15.1,
+   "hi_pct": 50.3,
+   "pred_usd": 17.56,
+   "lo_usd": 14.95,
+   "hi_usd": 19.52
+  },
+  {
+   "figure_id": "S16-05",
+   "pred_pct": 33.0,
+   "lo_pct": 12.9,
+   "hi_pct": 48.1,
+   "pred_usd": 17.27,
+   "lo_usd": 14.66,
+   "hi_usd": 19.24
+  },
+  {
+   "figure_id": "S01-06",
+   "pred_pct": 22.4,
+   "lo_pct": 2.3,
+   "hi_pct": 37.5,
+   "pred_usd": 15.9,
+   "lo_usd": 13.29,
+   "hi_usd": 17.87
+  },
+  {
+   "figure_id": "S08-05",
+   "pred_pct": 22.9,
+   "lo_pct": 2.8,
+   "hi_pct": 38.0,
+   "pred_usd": 15.97,
+   "lo_usd": 13.35,
+   "hi_usd": 17.93
+  },
+  {
+   "figure_id": "S16-06",
+   "pred_pct": 33.0,
+   "lo_pct": 12.9,
+   "hi_pct": 48.1,
+   "pred_usd": 17.27,
+   "lo_usd": 14.66,
+   "hi_usd": 19.24
+  },
+  {
+   "figure_id": "S01-05",
+   "pred_pct": 22.4,
+   "lo_pct": 2.3,
+   "hi_pct": 37.5,
+   "pred_usd": 15.9,
+   "lo_usd": 13.29,
+   "hi_usd": 17.87
+  },
+  {
+   "figure_id": "S16-07",
+   "pred_pct": 123.7,
+   "lo_pct": 96.8,
+   "hi_pct": 152.4,
+   "pred_usd": 29.06,
+   "lo_usd": 25.56,
+   "hi_usd": 32.78
+  },
+  {
+   "figure_id": "S16-04",
+   "pred_pct": 33.0,
+   "lo_pct": 12.9,
+   "hi_pct": 48.1,
+   "pred_usd": 17.27,
+   "lo_usd": 14.66,
+   "hi_usd": 19.24
+  },
+  {
+   "figure_id": "S07-02",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S17-01",
+   "pred_pct": 35.2,
+   "lo_pct": 15.1,
+   "hi_pct": 50.3,
+   "pred_usd": 17.56,
+   "lo_usd": 14.95,
+   "hi_usd": 19.52
+  },
+  {
+   "figure_id": "S01-04",
+   "pred_pct": 22.4,
+   "lo_pct": 2.3,
+   "hi_pct": 37.5,
+   "pred_usd": 15.9,
+   "lo_usd": 13.29,
+   "hi_usd": 17.87
+  },
+  {
+   "figure_id": "S17-02",
+   "pred_pct": 35.2,
+   "lo_pct": 15.1,
+   "hi_pct": 50.3,
+   "pred_usd": 17.56,
+   "lo_usd": 14.95,
+   "hi_usd": 19.52
+  },
+  {
+   "figure_id": "S07-03",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S01-03",
+   "pred_pct": 22.4,
+   "lo_pct": 2.3,
+   "hi_pct": 37.5,
+   "pred_usd": 15.9,
+   "lo_usd": 13.29,
+   "hi_usd": 17.87
+  },
+  {
+   "figure_id": "S08-02",
+   "pred_pct": 22.9,
+   "lo_pct": 2.8,
+   "hi_pct": 38.0,
+   "pred_usd": 15.97,
+   "lo_usd": 13.35,
+   "hi_usd": 17.93
+  },
+  {
+   "figure_id": "S08-03",
+   "pred_pct": 22.9,
+   "lo_pct": 2.8,
+   "hi_pct": 38.0,
+   "pred_usd": 15.97,
+   "lo_usd": 13.35,
+   "hi_usd": 17.93
+  },
+  {
+   "figure_id": "S08-04",
+   "pred_pct": 22.9,
+   "lo_pct": 2.8,
+   "hi_pct": 38.0,
+   "pred_usd": 15.97,
+   "lo_usd": 13.35,
+   "hi_usd": 17.93
+  },
+  {
+   "figure_id": "S15-01",
+   "pred_pct": 22.3,
+   "lo_pct": 2.2,
+   "hi_pct": 37.4,
+   "pred_usd": 15.88,
+   "lo_usd": 13.27,
+   "hi_usd": 17.85
+  },
+  {
+   "figure_id": "S15-04",
+   "pred_pct": 22.3,
+   "lo_pct": 2.2,
+   "hi_pct": 37.4,
+   "pred_usd": 15.88,
+   "lo_usd": 13.27,
+   "hi_usd": 17.85
+  },
+  {
+   "figure_id": "S11-02",
+   "pred_pct": 21.6,
+   "lo_pct": 1.5,
+   "hi_pct": 36.7,
+   "pred_usd": 15.79,
+   "lo_usd": 13.18,
+   "hi_usd": 17.75
+  },
+  {
+   "figure_id": "S04-02",
+   "pred_pct": 26.8,
+   "lo_pct": 6.6,
+   "hi_pct": 41.9,
+   "pred_usd": 16.47,
+   "lo_usd": 13.85,
+   "hi_usd": 18.43
+  },
+  {
+   "figure_id": "S13-01",
+   "pred_pct": 27.3,
+   "lo_pct": 7.1,
+   "hi_pct": 42.4,
+   "pred_usd": 16.53,
+   "lo_usd": 13.92,
+   "hi_usd": 18.49
+  },
+  {
+   "figure_id": "S05-04",
+   "pred_pct": 29.0,
+   "lo_pct": 8.9,
+   "hi_pct": 44.2,
+   "pred_usd": 16.76,
+   "lo_usd": 14.15,
+   "hi_usd": 18.73
+  },
+  {
+   "figure_id": "S11-01",
+   "pred_pct": 21.6,
+   "lo_pct": 1.5,
+   "hi_pct": 36.7,
+   "pred_usd": 15.79,
+   "lo_usd": 13.18,
+   "hi_usd": 17.75
+  },
+  {
+   "figure_id": "S13-02",
+   "pred_pct": 27.3,
+   "lo_pct": 7.1,
+   "hi_pct": 42.4,
+   "pred_usd": 16.53,
+   "lo_usd": 13.92,
+   "hi_usd": 18.49
+  },
+  {
+   "figure_id": "S12-07",
+   "pred_pct": 98.9,
+   "lo_pct": 72.0,
+   "hi_pct": 127.6,
+   "pred_usd": 25.84,
+   "lo_usd": 22.34,
+   "hi_usd": 29.56
+  },
+  {
+   "figure_id": "S04-01",
+   "pred_pct": 26.8,
+   "lo_pct": 6.6,
+   "hi_pct": 41.9,
+   "pred_usd": 16.47,
+   "lo_usd": 13.85,
+   "hi_usd": 18.43
+  },
+  {
+   "figure_id": "S10-07",
+   "pred_pct": 96.3,
+   "lo_pct": 69.4,
+   "hi_pct": 125.0,
+   "pred_usd": 25.5,
+   "lo_usd": 22.0,
+   "hi_usd": 29.22
+  },
+  {
+   "figure_id": "S03-07",
+   "pred_pct": 90.6,
+   "lo_pct": 63.7,
+   "hi_pct": 119.3,
+   "pred_usd": 24.76,
+   "lo_usd": 21.26,
+   "hi_usd": 28.48
+  },
+  {
+   "figure_id": "S13-04",
+   "pred_pct": 27.3,
+   "lo_pct": 7.1,
+   "hi_pct": 42.4,
+   "pred_usd": 16.53,
+   "lo_usd": 13.92,
+   "hi_usd": 18.49
+  },
+  {
+   "figure_id": "S05-05",
+   "pred_pct": 29.0,
+   "lo_pct": 8.9,
+   "hi_pct": 44.2,
+   "pred_usd": 16.76,
+   "lo_usd": 14.15,
+   "hi_usd": 18.73
+  },
+  {
+   "figure_id": "S10-06",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S13-05",
+   "pred_pct": 27.3,
+   "lo_pct": 7.1,
+   "hi_pct": 42.4,
+   "pred_usd": 16.53,
+   "lo_usd": 13.92,
+   "hi_usd": 18.49
+  },
+  {
+   "figure_id": "S13-03",
+   "pred_pct": 27.3,
+   "lo_pct": 7.1,
+   "hi_pct": 42.4,
+   "pred_usd": 16.53,
+   "lo_usd": 13.92,
+   "hi_usd": 18.49
+  },
+  {
+   "figure_id": "S03-06",
+   "pred_pct": 23.0,
+   "lo_pct": 2.9,
+   "hi_pct": 38.2,
+   "pred_usd": 15.98,
+   "lo_usd": 13.37,
+   "hi_usd": 17.95
+  },
+  {
+   "figure_id": "S05-03",
+   "pred_pct": 29.0,
+   "lo_pct": 8.9,
+   "hi_pct": 44.2,
+   "pred_usd": 16.76,
+   "lo_usd": 14.15,
+   "hi_usd": 18.73
+  },
+  {
+   "figure_id": "S12-06",
+   "pred_pct": 23.8,
+   "lo_pct": 3.7,
+   "hi_pct": 38.9,
+   "pred_usd": 16.09,
+   "lo_usd": 13.47,
+   "hi_usd": 18.05
+  },
+  {
+   "figure_id": "S12-01",
+   "pred_pct": 23.8,
+   "lo_pct": 3.7,
+   "hi_pct": 38.9,
+   "pred_usd": 16.09,
+   "lo_usd": 13.47,
+   "hi_usd": 18.05
+  },
+  {
+   "figure_id": "S04-06",
+   "pred_pct": 26.8,
+   "lo_pct": 6.6,
+   "hi_pct": 41.9,
+   "pred_usd": 16.47,
+   "lo_usd": 13.85,
+   "hi_usd": 18.43
+  },
+  {
+   "figure_id": "S11-06",
+   "pred_pct": 21.6,
+   "lo_pct": 1.5,
+   "hi_pct": 36.7,
+   "pred_usd": 15.79,
+   "lo_usd": 13.18,
+   "hi_usd": 17.75
+  },
+  {
+   "figure_id": "S12-02",
+   "pred_pct": 23.8,
+   "lo_pct": 3.7,
+   "hi_pct": 38.9,
+   "pred_usd": 16.09,
+   "lo_usd": 13.47,
+   "hi_usd": 18.05
+  },
+  {
+   "figure_id": "S05-01",
+   "pred_pct": 29.0,
+   "lo_pct": 8.9,
+   "hi_pct": 44.2,
+   "pred_usd": 16.76,
+   "lo_usd": 14.15,
+   "hi_usd": 18.73
+  },
+  {
+   "figure_id": "S11-05",
+   "pred_pct": 21.6,
+   "lo_pct": 1.5,
+   "hi_pct": 36.7,
+   "pred_usd": 15.79,
+   "lo_usd": 13.18,
+   "hi_usd": 17.75
+  },
+  {
+   "figure_id": "S04-03",
+   "pred_pct": 26.8,
+   "lo_pct": 6.6,
+   "hi_pct": 41.9,
+   "pred_usd": 16.47,
+   "lo_usd": 13.85,
+   "hi_usd": 18.43
+  },
+  {
+   "figure_id": "S12-03",
+   "pred_pct": 23.8,
+   "lo_pct": 3.7,
+   "hi_pct": 38.9,
+   "pred_usd": 16.09,
+   "lo_usd": 13.47,
+   "hi_usd": 18.05
+  },
+  {
+   "figure_id": "S12-04",
+   "pred_pct": 23.8,
+   "lo_pct": 3.7,
+   "hi_pct": 38.9,
+   "pred_usd": 16.09,
+   "lo_usd": 13.47,
+   "hi_usd": 18.05
+  },
+  {
+   "figure_id": "S05-02",
+   "pred_pct": 29.0,
+   "lo_pct": 8.9,
+   "hi_pct": 44.2,
+   "pred_usd": 16.76,
+   "lo_usd": 14.15,
+   "hi_usd": 18.73
+  },
+  {
+   "figure_id": "S04-04",
+   "pred_pct": 26.8,
+   "lo_pct": 6.6,
+   "hi_pct": 41.9,
+   "pred_usd": 16.47,
+   "lo_usd": 13.85,
+   "hi_usd": 18.43
+  },
+  {
+   "figure_id": "S11-04",
+   "pred_pct": 21.6,
+   "lo_pct": 1.5,
+   "hi_pct": 36.7,
+   "pred_usd": 15.79,
+   "lo_usd": 13.18,
+   "hi_usd": 17.75
+  },
+  {
+   "figure_id": "S12-05",
+   "pred_pct": 23.8,
+   "lo_pct": 3.7,
+   "hi_pct": 38.9,
+   "pred_usd": 16.09,
+   "lo_usd": 13.47,
+   "hi_usd": 18.05
+  },
+  {
+   "figure_id": "S11-03",
+   "pred_pct": 21.6,
+   "lo_pct": 1.5,
+   "hi_pct": 36.7,
+   "pred_usd": 15.79,
+   "lo_usd": 13.18,
+   "hi_usd": 17.75
+  },
+  {
+   "figure_id": "S04-05",
+   "pred_pct": 26.8,
+   "lo_pct": 6.6,
+   "hi_pct": 41.9,
+   "pred_usd": 16.47,
+   "lo_usd": 13.85,
+   "hi_usd": 18.43
+  },
+  {
+   "figure_id": "S05-06",
+   "pred_pct": 29.0,
+   "lo_pct": 8.9,
+   "hi_pct": 44.2,
+   "pred_usd": 16.76,
+   "lo_usd": 14.15,
+   "hi_usd": 18.73
+  },
+  {
+   "figure_id": "S13-06",
+   "pred_pct": 27.3,
+   "lo_pct": 7.1,
+   "hi_pct": 42.4,
+   "pred_usd": 16.53,
+   "lo_usd": 13.92,
+   "hi_usd": 18.49
+  },
+  {
+   "figure_id": "S10-05",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S09-07",
+   "pred_pct": 84.7,
+   "lo_pct": 57.8,
+   "hi_pct": 113.4,
+   "pred_usd": 23.99,
+   "lo_usd": 20.5,
+   "hi_usd": 27.72
+  },
+  {
+   "figure_id": "S14-07",
+   "pred_pct": 94.6,
+   "lo_pct": 67.7,
+   "hi_pct": 123.3,
+   "pred_usd": 25.28,
+   "lo_usd": 21.78,
+   "hi_usd": 29.0
+  },
+  {
+   "figure_id": "S02-07",
+   "pred_pct": 98.0,
+   "lo_pct": 71.1,
+   "hi_pct": 126.7,
+   "pred_usd": 25.72,
+   "lo_usd": 22.22,
+   "hi_usd": 29.45
+  },
+  {
+   "figure_id": "S06-03",
+   "pred_pct": 25.6,
+   "lo_pct": 5.5,
+   "hi_pct": 40.8,
+   "pred_usd": 16.32,
+   "lo_usd": 13.71,
+   "hi_usd": 18.28
+  },
+  {
+   "figure_id": "S09-06",
+   "pred_pct": 24.6,
+   "lo_pct": 4.5,
+   "hi_pct": 39.7,
+   "pred_usd": 16.19,
+   "lo_usd": 13.57,
+   "hi_usd": 18.15
+  },
+  {
+   "figure_id": "S04-07",
+   "pred_pct": 92.3,
+   "lo_pct": 65.3,
+   "hi_pct": 120.9,
+   "pred_usd": 24.97,
+   "lo_usd": 21.48,
+   "hi_usd": 28.7
+  },
+  {
+   "figure_id": "S14-06",
+   "pred_pct": 20.2,
+   "lo_pct": 0.1,
+   "hi_pct": 35.3,
+   "pred_usd": 15.61,
+   "lo_usd": 13.0,
+   "hi_usd": 17.58
+  },
+  {
+   "figure_id": "S02-06",
+   "pred_pct": 21.0,
+   "lo_pct": 0.9,
+   "hi_pct": 36.1,
+   "pred_usd": 15.71,
+   "lo_usd": 13.1,
+   "hi_usd": 17.68
+  },
+  {
+   "figure_id": "S09-05",
+   "pred_pct": 24.6,
+   "lo_pct": 4.5,
+   "hi_pct": 39.7,
+   "pred_usd": 16.19,
+   "lo_usd": 13.57,
+   "hi_usd": 18.15
+  },
+  {
+   "figure_id": "S18-06",
+   "pred_pct": 35.0,
+   "lo_pct": 14.9,
+   "hi_pct": 50.1,
+   "pred_usd": 17.53,
+   "lo_usd": 14.92,
+   "hi_usd": 19.5
+  },
+  {
+   "figure_id": "S15-03",
+   "pred_pct": 22.3,
+   "lo_pct": 2.2,
+   "hi_pct": 37.4,
+   "pred_usd": 15.88,
+   "lo_usd": 13.27,
+   "hi_usd": 17.85
+  },
+  {
+   "figure_id": "S02-05",
+   "pred_pct": 21.0,
+   "lo_pct": 0.9,
+   "hi_pct": 36.1,
+   "pred_usd": 15.71,
+   "lo_usd": 13.1,
+   "hi_usd": 17.68
+  },
+  {
+   "figure_id": "S06-04",
+   "pred_pct": 25.6,
+   "lo_pct": 5.5,
+   "hi_pct": 40.8,
+   "pred_usd": 16.32,
+   "lo_usd": 13.71,
+   "hi_usd": 18.28
+  },
+  {
+   "figure_id": "S09-04",
+   "pred_pct": 24.6,
+   "lo_pct": 4.5,
+   "hi_pct": 39.7,
+   "pred_usd": 16.19,
+   "lo_usd": 13.57,
+   "hi_usd": 18.15
+  },
+  {
+   "figure_id": "S15-02",
+   "pred_pct": 22.3,
+   "lo_pct": 2.2,
+   "hi_pct": 37.4,
+   "pred_usd": 15.88,
+   "lo_usd": 13.27,
+   "hi_usd": 17.85
+  },
+  {
+   "figure_id": "S06-02",
+   "pred_pct": 25.6,
+   "lo_pct": 5.5,
+   "hi_pct": 40.8,
+   "pred_usd": 16.32,
+   "lo_usd": 13.71,
+   "hi_usd": 18.28
+  },
+  {
+   "figure_id": "S03-01",
+   "pred_pct": 23.0,
+   "lo_pct": 2.9,
+   "hi_pct": 38.2,
+   "pred_usd": 15.98,
+   "lo_usd": 13.37,
+   "hi_usd": 17.95
+  },
+  {
+   "figure_id": "S14-05",
+   "pred_pct": 20.2,
+   "lo_pct": 0.1,
+   "hi_pct": 35.3,
+   "pred_usd": 15.61,
+   "lo_usd": 13.0,
+   "hi_usd": 17.58
+  },
+  {
+   "figure_id": "S03-05",
+   "pred_pct": 23.0,
+   "lo_pct": 2.9,
+   "hi_pct": 38.2,
+   "pred_usd": 15.98,
+   "lo_usd": 13.37,
+   "hi_usd": 17.95
+  },
+  {
+   "figure_id": "S13-07",
+   "pred_pct": 101.1,
+   "lo_pct": 74.2,
+   "hi_pct": 129.7,
+   "pred_usd": 26.12,
+   "lo_usd": 22.62,
+   "hi_usd": 29.84
+  },
+  {
+   "figure_id": "S10-04",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S14-01",
+   "pred_pct": 20.2,
+   "lo_pct": 0.1,
+   "hi_pct": 35.3,
+   "pred_usd": 15.61,
+   "lo_usd": 13.0,
+   "hi_usd": 17.58
+  },
+  {
+   "figure_id": "S03-04",
+   "pred_pct": 23.0,
+   "lo_pct": 2.9,
+   "hi_pct": 38.2,
+   "pred_usd": 15.98,
+   "lo_usd": 13.37,
+   "hi_usd": 17.95
+  },
+  {
+   "figure_id": "S05-07",
+   "pred_pct": 97.2,
+   "lo_pct": 70.3,
+   "hi_pct": 125.9,
+   "pred_usd": 25.62,
+   "lo_usd": 22.12,
+   "hi_usd": 29.34
+  },
+  {
+   "figure_id": "S10-03",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S14-02",
+   "pred_pct": 20.2,
+   "lo_pct": 0.1,
+   "hi_pct": 35.3,
+   "pred_usd": 15.61,
+   "lo_usd": 13.0,
+   "hi_usd": 17.58
+  },
+  {
+   "figure_id": "S03-03",
+   "pred_pct": 23.0,
+   "lo_pct": 2.9,
+   "hi_pct": 38.2,
+   "pred_usd": 15.98,
+   "lo_usd": 13.37,
+   "hi_usd": 17.95
+  },
+  {
+   "figure_id": "S14-03",
+   "pred_pct": 20.2,
+   "lo_pct": 0.1,
+   "hi_pct": 35.3,
+   "pred_usd": 15.61,
+   "lo_usd": 13.0,
+   "hi_usd": 17.58
+  },
+  {
+   "figure_id": "S06-01",
+   "pred_pct": 25.6,
+   "lo_pct": 5.5,
+   "hi_pct": 40.8,
+   "pred_usd": 16.32,
+   "lo_usd": 13.71,
+   "hi_usd": 18.28
+  },
+  {
+   "figure_id": "S10-02",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S14-04",
+   "pred_pct": 20.2,
+   "lo_pct": 0.1,
+   "hi_pct": 35.3,
+   "pred_usd": 15.61,
+   "lo_usd": 13.0,
+   "hi_usd": 17.58
+  },
+  {
+   "figure_id": "S03-02",
+   "pred_pct": 23.0,
+   "lo_pct": 2.9,
+   "hi_pct": 38.2,
+   "pred_usd": 15.98,
+   "lo_usd": 13.37,
+   "hi_usd": 17.95
+  },
+  {
+   "figure_id": "S10-01",
+   "pred_pct": 25.4,
+   "lo_pct": 5.3,
+   "hi_pct": 40.5,
+   "pred_usd": 16.29,
+   "lo_usd": 13.67,
+   "hi_usd": 18.25
+  },
+  {
+   "figure_id": "S02-04",
+   "pred_pct": 21.0,
+   "lo_pct": 0.9,
+   "hi_pct": 36.1,
+   "pred_usd": 15.71,
+   "lo_usd": 13.1,
+   "hi_usd": 17.68
+  },
+  {
+   "figure_id": "S18-07",
+   "pred_pct": 133.7,
+   "lo_pct": 106.8,
+   "hi_pct": 162.4,
+   "pred_usd": 30.36,
+   "lo_usd": 26.86,
+   "hi_usd": 34.08
+  }
+ ],
+ "takeaways": [
+  "Biggest driver: rarity (~64% of explained variation), then launch timing / age (~16%).",
+  "Best model (Linear (ridge)) cuts out-of-series error by 6% vs a rarity-tier baseline (90% interval -1% to 15%). The interval includes zero: treat this as no reliable gain over the simple baseline.",
+  "Leakage check: a random split would report R2=0.87 vs 0.74 for whole-series hold-out.",
+  "Interval check: the nominal 80% interval covered 57% of the newest series' observations.",
+  "Small data: 18 series / 126 figures. Rankings above are indicative, not definitive."
+ ]
+}

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smiski Lab · a data science look at the glow-in-the-dark blind box craze</title>
+  <meta name="description" content="Unofficial fan data project: resale premium prediction with SHAP, demand forecasting with changepoints, Reddit topic modelling, and a virtual blind box.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="nav" aria-label="Sections">
+  <div class="wrap">
+    <a class="brand" href="#top">✨ Smiski Lab</a>
+    <div class="nav-links">
+      <a class="link" href="#box">Blind box</a>
+      <a class="link" href="#premium">Resale premium</a>
+      <a class="link" href="#forecast">Forecast</a>
+      <a class="link" href="#talk">Fan talk</a>
+      <a class="link" href="#method">Data &amp; method</a>
+    </div>
+    <span class="spacer"></span>
+    <button class="btn" id="theme-btn" type="button">☾ Lights off</button>
+  </div>
+</nav>
+<div id="errors" role="alert"></div>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div id="provenance" class="note" role="note"></div>
+    <h1 style="margin-top:22px">What makes a tiny glowing figure worth more than its box?</h1>
+    <p class="lead">An unofficial fan data project on Smiski blind boxes: a model of resale premiums, a forecast of the craze, and a look at what collectors say online. Open a virtual box first. The model prices what you pull.</p>
+    <div class="hero-art" id="hero-art" aria-hidden="true"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- ============ BLIND BOX ============ -->
+  <section id="box">
+    <div class="kicker">Try it</div>
+    <h2>Virtual blind box</h2>
+    <p class="muted">Pick a series, pick a sealed box, open it. Each pull is random, weighted by the series' pull rates, and priced by the resale model.</p>
+    <div class="sim">
+      <div class="card">
+        <p class="step"><span>1</span>Pick a series</p>
+        <div class="chips" id="sim-series" role="group" aria-label="Series"></div>
+        <p class="step"><span>2</span>Pick a box <span style="background:none;width:auto" class="muted small" id="sim-series-title"></span></p>
+        <div class="boxes" id="sim-boxes" role="group" aria-label="Boxes"></div>
+        <p class="step"><span>3</span>Open it</p>
+        <div class="actions">
+          <button class="btn primary" id="sim-open" type="button" disabled>Open box</button>
+          <button class="btn" id="sim-openall" type="button">Open all remaining</button>
+          <button class="btn" id="sim-fresh" type="button">Fresh set of boxes</button>
+        </div>
+        <p class="muted small" id="sim-hint" aria-live="polite" style="margin-top:10px"></p>
+        <h3 style="margin-top:20px">Your collection</h3>
+        <div class="collection" id="sim-collection"></div>
+        <div class="stats" id="sim-stats"></div>
+        <p class="small muted" style="margin:12px 0 4px">Recent pulls</p>
+        <div id="sim-history"></div>
+        <p style="margin-top:12px"><button class="btn small" id="sim-reset" type="button">Reset this series' collection</button></p>
+      </div>
+      <div>
+        <div class="card reveal" id="sim-reveal" aria-live="polite"></div>
+        <div class="card" style="margin-top:16px">
+          <h3>Odds and predicted values</h3>
+          <div id="sim-odds"></div>
+          <p class="small muted" style="margin-top:8px">Predicted value is the model's estimate of the resale price with an 80% interval. Figures are original placeholder art, not official images.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PREMIUM ============ -->
+  <section id="premium">
+    <div class="kicker">Model 1 · supervised regression</div>
+    <h2>What drives a figure's resale premium?</h2>
+    <p class="muted">Target: price above retail, in percent. Features: series theme, rarity tier, retail price, release season, months since launch, collab flag and search interest at launch. Validation holds out <b>whole series</b>, because figures in one series look alike and a random split would leak.</p>
+    <div class="kpis" id="premium-kpis"></div>
+    <div class="grid2">
+      <div class="card">
+        <div class="tools"><h3>Model vs baselines</h3>
+          <div class="seg" id="premium-metric" role="group" aria-label="Validation scheme">
+            <button type="button" data-m="mae" aria-pressed="true">Leave-one-series-out</button>
+            <button type="button" data-m="hold" aria-pressed="false">Newest series</button></div></div>
+        <div id="premium-models"></div>
+        <p class="small muted">Grey bars are baselines: the training mean, and the mean premium per rarity tier. Beating the second one is the real test.</p>
+      </div>
+      <div class="card">
+        <h3>What moves the prediction (SHAP)</h3>
+        <div id="premium-shap"></div>
+        <p class="small muted">SHAP explains the <i>model</i>, not the market: it shows which inputs the model leans on, not what causes prices. Retail price partly stands in for release era.</p>
+      </div>
+    </div>
+    <div class="takeaway"><h3>Business takeaway</h3><ul id="premium-takeaways"></ul></div>
+  </section>
+
+  <!-- ============ FORECAST ============ -->
+  <section id="forecast">
+    <div class="kicker">Model 2 · time series</div>
+    <h2>Where is demand heading, and when did the craze change gear?</h2>
+    <p class="muted">Weekly search interest for "smiski". Six forecasters compete against two naive baselines. The winner was chosen on rolling backtests, then scored once on the final 52 weeks it never saw.</p>
+    <div class="card">
+      <div class="tools">
+        <div class="seg" id="forecast-range" role="group" aria-label="Date range">
+          <button type="button" data-r="all" aria-pressed="true">All</button>
+          <button type="button" data-r="3y" aria-pressed="false">Last 3 years</button>
+          <button type="button" data-r="18m" aria-pressed="false">Last 18 months</button></div>
+        <div class="small"><label><input type="checkbox" id="tgl-cp" checked> Changepoints</label> &nbsp; <label><input type="checkbox" id="tgl-ev" checked> Events</label></div>
+      </div>
+      <div id="forecast-chart"></div>
+      <p class="small muted">Dotted verticals mark where the hold-out starts and where the data ends. The 26-week forecast assumes no new series launch.</p>
+    </div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="card"><h3>Hold-out scorecard</h3><div style="overflow:auto"><table id="forecast-metrics"></table></div>
+        <p class="small muted">MAE in index points on the last 52 weeks. MASE is scaled by in-sample one-step naive error, so long-horizon values sit well above 1. Coverage should be near 80%.</p></div>
+      <div class="card"><h3>Changepoints vs product events</h3><div style="overflow:auto"><table id="cp-table"></table></div>
+        <p class="small muted">PELT on the de-seasonalised log series. A break near an event is consistent with it mattering, not proof.</p></div>
+    </div>
+    <div class="takeaway"><h3>Business takeaway</h3><ul id="forecast-takeaways"></ul></div>
+  </section>
+
+  <!-- ============ TALK ============ -->
+  <section id="talk">
+    <div class="kicker">Model 3 · NLP</div>
+    <h2>What do collectors talk about, and does their mood lead demand?</h2>
+    <p class="muted">BERTopic over r/smiski posts (embedder: <code id="reddit-embedder"></code>), VADER sentiment, and a lead/lag test against search interest. Only aggregates are shown, never post text.</p>
+    <div class="card"><h3>Topics</h3><div id="topic-list"></div></div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="card"><h3>Topic share over time</h3><div id="topic-time"></div></div>
+      <div class="card"><h3>Sentiment vs demand</h3><div id="sent-chart"></div></div>
+    </div>
+    <div class="card" style="margin-top:16px"><h3>Does sentiment lead or lag demand?</h3>
+      <p class="small muted">Correlation of sentiment at week t with demand at week t+k. A peak at k &gt; 0 means sentiment comes first. Shaded band: moving-block bootstrap.</p>
+      <div id="xcorr-chart"></div></div>
+    <div class="takeaway"><h3>Business takeaway</h3><ul id="reddit-takeaways"></ul></div>
+  </section>
+
+  <!-- ============ METHOD ============ -->
+  <section id="method">
+    <div class="kicker">Credibility</div>
+    <h2>Data &amp; method</h2>
+    <div class="grid2">
+      <div class="card"><h3>Where each table came from</h3>
+        <table><thead><tr><th>Table</th><th>Status</th></tr></thead><tbody id="prov-table"></tbody></table>
+        <p class="small muted" style="margin-top:8px">"scraped" tables come from smiski.com and Google Trends. "simulated" ones are generated by <code>src/smiskis/seed.py</code> with the same schema; they are replaced as soon as a real source is supplied.</p>
+        <div id="assumptions-box"><h3 style="margin-top:14px">Assumptions in the real tables</h3><ul class="small" id="assumptions"></ul></div></div>
+      <div class="card"><h3>How to read this honestly</h3>
+        <ul>
+          <li><b>Baselines first.</b> Every model is shown next to a naive one, with the improvement and its uncertainty.</li>
+          <li><b>Small data.</b> There are only 18 series; they, not rows, are the independent units. Prefer simple models and treat near-ties as ties.</li>
+          <li><b>Uncertainty everywhere.</b> Intervals for prices and forecasts, bootstrap bands for importance and correlation.</li>
+          <li><b>No official art.</b> Figures here are original placeholder sprites. Series and figure names and the short descriptions are quoted from the official site; no images are republished.</li>
+          <li><b>Correlation, not causation.</b> SHAP, changepoints and lead/lag describe patterns.</li>
+        </ul></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Unofficial fan project for education. Smiski is a brand of Dreams Inc.; this site is not affiliated with or endorsed by them. Reproduce everything with the notebooks in <code>notebooks/</code> and <code>make all</code>.</p>
+  </div>
+</footer>
+
+<script src="data/data.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/blindbox.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

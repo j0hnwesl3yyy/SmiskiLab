@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3M66KNZH1S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3M66KNZH1S');
+</script>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://smiski.com/e/xmlrpc.php" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:500" />
+<link rel="stylesheet" href="https://smiski.com/e/wp-content/themes/bb-theme/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+<!--[if lt IE 9]>
+	<script src="https://smiski.com/e/wp-content/themes/bb-theme/js/html5shiv.js"></script>
+	<script src="https://smiski.com/e/wp-content/themes/bb-theme/js/respond.min.js"></script>
+<![endif]-->
+
+<title>SMISKI is coming to Taiwan - 【OFFICIAL SITE】SMISKI</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.3.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://smiski.com/e/news/20201204-2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="SMISKI is coming to Taiwan - 【OFFICIAL SITE】SMISKI" />
+<meta property="og:description" content="◆ Event overview Eslite Shin Kong Mitsukoshi Taichung Zhonggang Date：26th December (sat)–27th December (sun) Place：1226~27 Hands Tailung Q square Smiski Meet &amp; Greet in Taiwan is coming back on December 12th &amp; 13th since the first held it at 2017. Do not miss Smiski event out and check out from the below details. https://www.facebook.com/SmiskiTW/" />
+<meta property="og:url" content="https://smiski.com/e/news/20201204-2/" />
+<meta property="og:site_name" content="【OFFICIAL SITE】SMISKI" />
+<meta property="article:publisher" content="https://www.facebook.com/smiski.japan" />
+<meta property="article:section" content="NEWS" />
+<meta property="article:published_time" content="2020-12-04T12:40:54+09:00" />
+<meta property="article:modified_time" content="2020-12-14T02:34:28+09:00" />
+<meta property="og:updated_time" content="2020-12-14T02:34:28+09:00" />
+<meta property="og:image" content="https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02.png" />
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="1000" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="◆ Event overview Eslite Shin Kong Mitsukoshi Taichung Zhonggang Date：26th December (sat)–27th December (sun) Place：1226~27 Hands Tailung Q square Smiski Meet &amp; Greet in Taiwan is coming back on December 12th &amp; 13th since the first held it at 2017. Do not miss Smiski event out and check out from the below details. https://www.facebook.com/SmiskiTW/" />
+<meta name="twitter:title" content="SMISKI is coming to Taiwan - 【OFFICIAL SITE】SMISKI" />
+<meta name="twitter:site" content="@Smiski_Japan" />
+<meta name="twitter:image" content="https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02.png" />
+<meta name="twitter:creator" content="@Smiski_Japan" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="【OFFICIAL SITE】SMISKI &raquo; Feed" href="https://smiski.com/e/feed/" />
+<link rel="alternate" type="application/rss+xml" title="【OFFICIAL SITE】SMISKI &raquo; Comments Feed" href="https://smiski.com/e/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="【OFFICIAL SITE】SMISKI &raquo; SMISKI is coming to Taiwan Comments Feed" href="https://smiski.com/e/news/20201204-2/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/smiski.com\/e\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='fl-builder-layout-1587-css'  href='https://smiski.com/e/wp-content/uploads/bb-plugin/cache/1587-layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='recent-posts-widget-with-thumbnails-public-style-css'  href='https://smiski.com/e/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css' type='text/css' media='all' />
+<link rel='stylesheet' id='instag-slider-css'  href='https://smiski.com/e/wp-content/plugins/instagram-slider-widget/assets/css/instag-slider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mono-social-icons-css'  href='https://smiski.com/e/wp-content/themes/bb-theme/css/mono-social-icons.css' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5 - Universal enabled - https://www.monsterinsights.com/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-11502300-4', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src='https://smiski.com/e/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://smiski.com/e/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://smiski.com/e/wp-content/plugins/instagram-slider-widget/assets/js/jquery.flexslider-min.js'></script>
+<link rel='https://api.w.org/' href='https://smiski.com/e/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://smiski.com/e/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://smiski.com/e/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.3" />
+<link rel='shortlink' href='https://smiski.com/e/?p=1587' />
+<link rel="alternate" type="application/json+oembed" href="https://smiski.com/e/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsmiski.com%2Fe%2Fnews%2F20201204-2%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://smiski.com/e/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsmiski.com%2Fe%2Fnews%2F20201204-2%2F&#038;format=xml" />
+<!-- Favicon Rotator -->
+<link rel="shortcut icon" href="https://smiski.com/e/wp-content/uploads/2016/04/smiski_icon-16x16.png" />
+<!-- End Favicon Rotator -->
+<style id='bb-theme-custom-css' class='siteorigin-custom-css' type='text/css'>
+.fl-page-header, .fl-page-nav ul.sub-menu, .fl-page-footer {
+  background-color: #ffec29 !important;
+}
+
+li#menu-item-691 {
+  display: none;
+}
+
+.fl-post-content p {
+    line-height: 24px;
+    margin-bottom: 1.5em
+}
+
+@media screen and (max-width: 480px){
+  li#menu-item-311 {
+    display: none;
+  }
+
+  li#menu-item-691 {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  li#menu-item-311 {
+    display: none;
+  }
+
+  li#menu-item-691 {
+    display: block;
+  }
+
+}
+
+/* 2022.12.13  */
+
+.products-wrap {
+	width: 100%;
+}
+
+.products-inner {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.products-inner.products-inner--460 {
+	max-width: 460px;
+}
+
+.products-1col {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.products-2col {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.products-1col__item {
+	margin-bottom: 30px;
+	display: block;
+}
+
+.products-2col__item {
+	margin-bottom: 30px;
+	display: block;
+}
+
+@media only screen and (min-width: 860px) {
+	.products-2col__item.products-2col__item--control01 {
+		position: relative;
+		top: -10px;
+		right: -20px;
+	}
+	.products-inner--460 .products-2col__item.products-2col__item--control01 {
+		position: relative;
+		top: 0px;
+		right: -10px;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.products-2col {
+		display: block;
+		text-align: center;
+	}
+}
+</style>
+<link rel="stylesheet" href="https://smiski.com/e/wp-content/uploads/bb-theme/skin-62fb70b9cf4da.css" />
+<style id="fl-theme-custom-css">.fl-page-bar{
+    border-bottom: 0px;
+}
+
+.fl-page-footer{
+    border-top: 0px;
+    padding: 20px 0;
+}</style>
+<link rel="stylesheet" href="https://smiski.com/e/wp-content/themes/bb-theme-child/style.css" />
+</head>
+
+<body data-rsssl=1 class="post-template-default single single-post postid-1587 single-format-standard fl-builder fl-preset-stripe fl-full-width fl-scroll-to-top" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<div class="fl-page">
+	<header class="fl-page-header fl-page-header-primary fl-page-nav-right fl-page-nav-toggle-icon" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+	<div class="fl-page-header-wrap">
+		<div class="fl-page-header-container container">
+			<div class="fl-page-header-row row">
+				<div class="col-md-4 col-sm-12 fl-page-header-logo-col">
+					<div class="fl-page-header-logo" itemscope="itemscope" itemtype="http://schema.org/Organization">
+						<a href="https://smiski.com/e" itemprop="url"><img class="fl-logo-img" itemscope itemtype="http://schema.org/ImageObject" src="https://smiski.com/e/wp-content/uploads/2016/03/top_logo.png" data-retina="" alt="【OFFICIAL SITE】SMISKI" /><meta itemprop="name" content="【OFFICIAL SITE】SMISKI" /></a>
+					</div>
+				</div>
+				<div class="fl-page-nav-col col-md-8 col-sm-12">
+					<div class="fl-page-nav-wrap">
+						<nav class="fl-page-nav fl-nav navbar navbar-default" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".fl-page-nav-collapse">
+								<span><i class="fa fa-bars"></i></span>
+							</button>
+							<div class="fl-page-nav-collapse collapse navbar-collapse">
+								<ul id="menu-main-menu" class="nav navbar-nav navbar-right menu"><li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="https://smiski.com/e/update/">NEWS</a></li>
+<li id="menu-item-601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-601"><a href="https://smiski.com/e/smiski/">SMISKI</a></li>
+<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171"><a href="https://smiski.com/e/products/">PRODUCTS</a>
+<ul class="sub-menu">
+	<li id="menu-item-2331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2331"><a href="https://smiski.com/e/products/construction-series/">Construction Series</a></li>
+	<li id="menu-item-2097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2097"><a href="https://smiski.com/e/products/birthday-series/">Birthday Series</a></li>
+	<li id="menu-item-1956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1956"><a href="https://smiski.com/e/products/sunday-series/">Sunday</a></li>
+	<li id="menu-item-1927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1927"><a href="https://smiski.com/e/products/hippers-series/">HIPPERS</a></li>
+	<li id="menu-item-1873" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1873"><a href="https://smiski.com/e/products/moving-series/">Moving Series</a></li>
+	<li id="menu-item-1829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1829"><a href="https://smiski.com/e/products/exercising-series/">Exercising Series</a></li>
+	<li id="menu-item-1761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1761"><a href="https://smiski.com/e/products/dressing-series/">Dressing Series</a></li>
+	<li id="menu-item-1724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1724"><a href="https://smiski.com/e/products/work-series/">@Work</a></li>
+	<li id="menu-item-1581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1581"><a href="https://smiski.com/e/products/museumseries/">Museum</a></li>
+	<li id="menu-item-1613" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1613"><a href="https://smiski.com/e/products/cheerseries/">Cheer</a></li>
+	<li id="menu-item-1433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433"><a href="https://smiski.com/e/products/yoga-series/">Yoga Series</a></li>
+	<li id="menu-item-1378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1378"><a href="https://smiski.com/e/products/bed-series/">Bed</a></li>
+	<li id="menu-item-1318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1318"><a href="https://smiski.com/e/products/living/">Living</a></li>
+	<li id="menu-item-1073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1073"><a href="https://smiski.com/e/products/bath-series/">Bath Series</a></li>
+	<li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a href="https://smiski.com/e/products/toilet-series/">Toilet Series</a></li>
+	<li id="menu-item-946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-946"><a href="https://smiski.com/e/products/series-4/">Series 4</a></li>
+	<li id="menu-item-751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-751"><a href="https://smiski.com/e/products/series-3/">Series 3</a></li>
+	<li id="menu-item-641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-641"><a href="https://smiski.com/e/products/series-2/">Series 2</a></li>
+	<li id="menu-item-640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-640"><a href="https://smiski.com/e/products/series-1/">Series 1</a></li>
+	<li id="menu-item-2292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2292"><a href="https://smiski.com/e/products/strap-accessories-series4/">Strap Accessories Series4</a></li>
+	<li id="menu-item-2255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2255"><a href="https://smiski.com/e/products/strap-accessories-series3/">Strap Accessories Series3</a></li>
+	<li id="menu-item-2221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2221"><a href="https://smiski.com/e/products/touch-light-vol2/">Touch Light vol.2</a></li>
+	<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="https://smiski.com/e/products/plush/">Plush</a></li>
+	<li id="menu-item-2157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2157"><a href="https://smiski.com/e/products/cushion-pouch/">Cushion Pouch</a></li>
+	<li id="menu-item-2175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2175"><a href="https://smiski.com/e/products/strap-accessories-series2/">Strap Accessories Series2</a></li>
+	<li id="menu-item-2125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2125"><a href="https://smiski.com/e/products/embroidery-sticker-series-vol2/">Embroidery Sticker Vol2</a></li>
+	<li id="menu-item-2074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2074"><a href="https://smiski.com/e/products/plush-key-chain/">Plush Key Chain</a></li>
+	<li id="menu-item-2047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2047"><a href="https://smiski.com/e/products/zipperbite-smiski-vol2/">ZIPPERBITE SMISKI vol.2</a></li>
+	<li id="menu-item-2181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2181"><a href="https://smiski.com/e/products/embroidery-sticker-series/">Embroidery Sticker</a></li>
+	<li id="menu-item-1990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1990"><a href="https://smiski.com/e/products/accessories/">Strap Accessories Series1</a></li>
+	<li id="menu-item-1893" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1893"><a href="https://smiski.com/e/products/touch-light/">SMISKI Touch Light</a></li>
+	<li id="menu-item-1798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1798"><a href="https://smiski.com/e/products/zipperbite-smiski/">ZIPPERBITE SMISKI</a></li>
+	<li id="menu-item-1678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1678"><a href="https://smiski.com/e/products/rainbomb/">Rainbomb SMISKI</a></li>
+	<li id="menu-item-1644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1644"><a href="https://smiski.com/e/products/bobbing-head/">Bobbing Head</a></li>
+	<li id="menu-item-1463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1463"><a href="https://smiski.com/e/products/bathball2/">Bath ball2</a></li>
+	<li id="menu-item-1841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1841"><a href="https://smiski.com/e/products/bath-ball/">Bath ball</a></li>
+	<li id="menu-item-1317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1317"><a href="https://smiski.com/e/products/key-chain/">Key Chain</a></li>
+	<li id="menu-item-1316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1316"><a href="https://smiski.com/e/products/toothbrush-stand/">Toothbrush Stand</a></li>
+	<li id="menu-item-642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-642"><a href="https://smiski.com/e/products/sensor-light/">Sensor Light</a></li>
+</ul>
+</li>
+<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="https://smiski.com/e/wheretobuy/">WHERE TO BUY</a></li>
+<li id="menu-item-1227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1227"><a href="http://smiski.com/">日本語</a></li>
+</ul>							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header><!-- .fl-page-header -->	<div class="fl-page-content" itemprop="mainContentOfPage">
+	
+		
+<div class="container">
+	<div class="row">
+		
+				
+		<div class="fl-content fl-content-left col-md-8">
+							<article class="fl-post post-1587 post type-post status-publish format-standard has-post-thumbnail hentry category-news" id="fl-post-1587" itemscope itemtype="http://schema.org/BlogPosting">
+
+				
+	<header class="fl-post-header">
+		<h1 class="fl-post-title" itemprop="headline">
+			SMISKI is coming to Taiwan					</h1>
+		<div class="fl-post-meta fl-post-meta-top"><span class="fl-post-author">By <a href="https://smiski.com/e/author/dreams6_smiski_en/"><span>dreams6_smiski_en</span></a></span><span class="fl-sep"> | </span><span class="fl-post-date">04/12/2020</span></div><meta itemscope itemprop="mainEntityOfPage" itemid="https://smiski.com/e/news/20201204-2/" /><meta itemprop="datePublished" content="2020-12-04" /><meta itemprop="dateModified" content="2020-12-14" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="【OFFICIAL SITE】SMISKI"><div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://smiski.com/e/wp-content/uploads/2016/03/top_logo.png"></div></div><div itemscope itemprop="author" itemtype="http://schema.org/Person"><meta itemprop="url" content="https://smiski.com/e/author/dreams6_smiski_en/" /><meta itemprop="name" content="dreams6_smiski_en" /></div><div itemscope itemprop="image" itemtype="http://schema.org/ImageObject"><meta itemprop="url" content="https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02.png" /><meta itemprop="width" content="1000" /><meta itemprop="height" content="1000" /></div><div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter"><meta itemprop="interactionType" content="http://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>	</header><!-- .fl-post-header -->
+
+					<div class="fl-post-thumb">
+			<img width="1000" height="1000" src="https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02.png" class="attachment-large size-large wp-post-image" alt="" srcset="https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02.png 1000w, https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02-150x150.png 150w, https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02-300x300.png 300w, https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02-768x768.png 768w, https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02-640x640.png 640w, https://smiski.com/e/wp-content/uploads/2020/12/news_20201204_02-45x45.png 45w" sizes="(max-width: 1000px) 100vw, 1000px" />		</div>
+		
+			
+	<div class="fl-post-content clearfix" itemprop="text">
+		<div class="fl-builder-content fl-builder-content-1587 fl-builder-global-templates-locked" data-post-id="1587"><div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5fc9afaa42c03" data-node="5fc9afaa42c03">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5fc9afaa45342" data-node="5fc9afaa45342">
+			<div class="fl-col fl-node-5fc9afaa453e5" data-node="5fc9afaa453e5" style="width: 100%;">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-rich-text fl-node-5fc9afaa42b6b" data-node="5fc9afaa42b6b" data-animation-delay="0.0">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p><strong>◆ Event overview</strong><br />
+Eslite Shin Kong Mitsukoshi Taichung Zhonggang<br />
+Date：26<sup>th</sup> December (sat)–27<sup>th</sup> December (sun)<br />
+Place：1226~27 Hands Tailung Q square</p>
+<p>Smiski Meet &amp; Greet in Taiwan is coming back on December 12th &amp; 13th since the first held it at 2017.</p>
+<p>Do not miss Smiski event out and check out from the below details.<br />
+<a href="https://www.facebook.com/SmiskiTW/">https://www.facebook.com/SmiskiTW/</a></p>
+</div>	</div>
+</div>	</div>
+</div>	</div>
+		</div>
+	</div>
+</div></div>	</div><!-- .fl-post-content -->
+
+	
+	<div class="fl-post-meta fl-post-meta-bottom"><div class="fl-post-cats-tags">Posted in <a href="https://smiski.com/e/category/news/" rel="category tag">NEWS</a></div></div>		
+</article>
+<!-- .fl-post -->					</div>
+		
+		<div class="fl-sidebar fl-sidebar-right fl-sidebar-display-desktop col-md-4" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+		<aside id="categories-4" class="fl-widget widget_categories"><h4 class="fl-widget-title">CATEGORY</h4>		<ul>
+	<li class="cat-item cat-item-26"><a href="https://smiski.com/e/category/news/event/" >EVENT</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://smiski.com/e/category/news/" >NEWS</a>
+</li>
+		</ul>
+</aside><aside id="archives-4" class="fl-widget widget_archive"><h4 class="fl-widget-title">ARCHIVES</h4>		<ul>
+			<li><a href='https://smiski.com/e/2026/06/'>June 2026</a>&nbsp;(3)</li>
+	<li><a href='https://smiski.com/e/2026/01/'>January 2026</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2025/11/'>November 2025</a>&nbsp;(2)</li>
+	<li><a href='https://smiski.com/e/2025/10/'>October 2025</a>&nbsp;(2)</li>
+	<li><a href='https://smiski.com/e/2025/09/'>September 2025</a>&nbsp;(2)</li>
+	<li><a href='https://smiski.com/e/2025/08/'>August 2025</a>&nbsp;(3)</li>
+	<li><a href='https://smiski.com/e/2025/06/'>June 2025</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2025/05/'>May 2025</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2025/02/'>February 2025</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2024/09/'>September 2024</a>&nbsp;(2)</li>
+	<li><a href='https://smiski.com/e/2024/02/'>February 2024</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2024/01/'>January 2024</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2023/05/'>May 2023</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2023/01/'>January 2023</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2022/11/'>November 2022</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2022/02/'>February 2022</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2021/09/'>September 2021</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2021/06/'>June 2021</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2021/03/'>March 2021</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2020/12/'>December 2020</a>&nbsp;(3)</li>
+	<li><a href='https://smiski.com/e/2020/11/'>November 2020</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2020/10/'>October 2020</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2020/08/'>August 2020</a>&nbsp;(2)</li>
+	<li><a href='https://smiski.com/e/2020/04/'>April 2020</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2020/01/'>January 2020</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2019/12/'>December 2019</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2019/09/'>September 2019</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2018/11/'>November 2018</a>&nbsp;(2)</li>
+	<li><a href='https://smiski.com/e/2018/09/'>September 2018</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2018/08/'>August 2018</a>&nbsp;(1)</li>
+	<li><a href='https://smiski.com/e/2018/02/'>February 2018</a>&nbsp;(1)</li>
+		</ul>
+		</aside><aside id="search-8" class="fl-widget widget_search"><h4 class="fl-widget-title">SEARCH</h4><form method="get" role="search" action="https://smiski.com/e" title="Type and press Enter to search.">
+	<input type="text" class="fl-search-input" name="s" class="form-control" value="Search" onfocus="if (this.value == 'Search') { this.value = ''; }" onblur="if (this.value == '') this.value='Search';">
+</form></aside>	</div>		
+	</div>
+</div>
+
+			
+	</div><!-- .fl-page-content -->
+		<footer class="fl-page-footer-wrap" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+		<div class="fl-page-footer">
+	<div class="fl-page-footer-container container">
+		<div class="fl-page-footer-row row">
+			<div class="col-md-6 col-sm-6 text-left clearfix"><div class="fl-page-footer-text fl-page-footer-text-1">© 2016 Dreams Inc.</div></div>			<div class="col-md-6 col-sm-6 text-right clearfix"><div class="fl-social-icons"><a href="https://www.facebook.com/smiski.japan/" target="_blank" class="fl-icon fl-icon-color-branded fl-icon-facebook fl-icon-facebook-circle"></a><a href="https://twitter.com/smiski_usa_" target="_blank" class="fl-icon fl-icon-color-branded fl-icon-twitter fl-icon-twitter-circle"></a><a href="https://www.youtube.com/channel/UCkKGZJ-oZ6PhxFVI_Ppm26g" target="_blank" class="fl-icon fl-icon-color-branded fl-icon-youtube fl-icon-youtube-circle"></a><a href="https://www.instagram.com/smiski_usa/" target="_blank" class="fl-icon fl-icon-color-branded fl-icon-instagram fl-icon-instagram-circle"></a></div></div>		</div>
+	</div>
+</div><!-- .fl-page-footer -->	</footer>
+		</div><!-- .fl-page -->
+<script type="text/javascript">
+
+if(typeof jQuery == 'undefined' || typeof jQuery.fn.on == 'undefined') {
+	document.write('<script src="https://smiski.com/e/wp-content/plugins/bb-plugin/js/jquery.js"><\/script>');
+	document.write('<script src="https://smiski.com/e/wp-content/plugins/bb-plugin/js/jquery.migrate.min.js"><\/script>');
+}
+
+</script><script type="text/html" id="tmpl-fl-node-template-block">
+	<span class="fl-builder-block fl-builder-block-saved-{{data.type}}<# if ( data.global ) { #> fl-builder-block-global<# } #>" data-id="{{data.id}}">
+		<span class="fl-builder-block-title">{{data.name}}</span>
+		<# if ( data.global ) { #>
+		<div class="fl-builder-badge fl-builder-badge-global">
+			Global		</div>
+		<# } #>
+		<span class="fl-builder-node-template-actions">
+			<a class="fl-builder-node-template-edit" href="{{data.link}}" target="_blank">
+				<i class="fa fa-wrench"></i>
+			</a>
+			<a class="fl-builder-node-template-delete" href="javascript:void(0);">
+				<i class="fa fa-times"></i>
+			</a>
+		</span>
+	</span>
+</script>
+<!-- #tmpl-fl-node-template-block --><a href="#" id="fl-to-top"><i class="fa fa-chevron-up"></i></a><script type='text/javascript' src='https://smiski.com/e/wp-content/uploads/bb-plugin/cache/1587-layout.js'></script>
+<script type='text/javascript' src='https://smiski.com/e/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js'></script>
+<script type='text/javascript' src='https://smiski.com/e/wp-content/themes/bb-theme/js/jquery.throttle.min.js'></script>
+<script type='text/javascript' src='https://smiski.com/e/wp-content/themes/bb-theme/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='https://smiski.com/e/wp-content/themes/bb-theme/js/theme.js'></script>
+<script type='text/javascript' src='https://smiski.com/e/wp-includes/js/wp-embed.min.js'></script>
+
+</body>
+</html>

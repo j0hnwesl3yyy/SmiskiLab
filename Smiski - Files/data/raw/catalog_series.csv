@@ -1,0 +1,19 @@
+series_id,series_name,theme,slug,release_date,release_date_source,collab,retail_usd,retail_source,n_figures,source,page_url
+S01,Series 1,Original,series-1,2016-03-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/series-1/
+S02,Series 2,Original,series-2,2016-03-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/series-2/
+S03,Series 3,Original,series-3,2016-09-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/series-3/
+S04,Series 4,Original,series-4,2017-02-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/series-4/
+S05,Toilet Series,Toilet,toilet-series,2017-10-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/toilet-series/
+S06,Bath Series,Bath,bath-series,2017-10-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/bath-series/
+S07,Living Series,Living,living,2018-08-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/living/
+S08,Bed Series,Bed,bed-series,2019-07-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/bed-series/
+S09,Yoga Series,Yoga,yoga-series,2019-09-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/yoga-series/
+S10,Cheer Series,Cheer,cheerseries,2020-12-01,page_image_upload_month (approx.),0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/cheerseries/
+S11,Museum Series,Museum,museumseries,2020-12-11,news_announced_launch,0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/museumseries/
+S12,Work Series,Work,work-series,2022-02-08,news_publish_date,0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/work-series/
+S13,Dressing Series,Dressing,dressing-series,2022-11-01,news_publish_date,0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/dressing-series/
+S14,Exercising Series,Exercising,exercising-series,2023-05-25,news_publish_date,0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/exercising-series/
+S15,Moving Series,Moving,moving-series,2024-01-16,news_publish_date,0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/moving-series/
+S16,Sunday Series,Sunday,sunday-series,2025-02-20,news_publish_date,0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/sunday-series/
+S17,Birthday Series,Birthday,birthday-series,2025-09-19,news_announced_launch,0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/birthday-series/
+S18,Construction Series,Construction,construction-series,2026-07-09,news_announced_launch,0,12.99,assumed,7,smiski.com/e,https://smiski.com/e/products/construction-series/

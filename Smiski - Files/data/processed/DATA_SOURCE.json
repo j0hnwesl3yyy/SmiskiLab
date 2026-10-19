@@ -1,0 +1,19 @@
+{
+  "tables": {
+    "series": "scraped",
+    "figures": "scraped",
+    "resale": "simulated",
+    "trends": "scraped",
+    "events": "scraped",
+    "reddit": "simulated"
+  },
+  "assumptions": [
+    "pull_rate: secret figure = 1/72 (collector folklore, not published by the maker); the 6 regular figures share the rest equally",
+    "retail_usd: assumed constant 12.99 (the official site shows no prices)",
+    "release_date: news-announced launch date when found, otherwise the first of the month the series page's images were uploaded (approximate)",
+    "secret figures are not named on the official site, so each series has one unnamed 'Secret'",
+    "collab: no collab series identified, so the flag is 0 everywhere",
+    "Hippers excluded: attachable figures with no secret, not a standard blind-box series"
+  ],
+  "trends_note": "Google Trends, worldwide, weekly; two windows stitched by overlap rescaling. 2018-2020 values are tiny and noisy."
+}
