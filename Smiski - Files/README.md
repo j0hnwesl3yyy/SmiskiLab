@@ -54,9 +54,6 @@ make scrape      # smiski.com catalog + news, Google Trends, (Reddit if credenti
 make data        # re-merge data/raw/ into data/processed/ without fetching
 ```
 
-* **Network access.** The Apple Claude Code sandbox only allows `*.apple.com` by default. This project needed
-  `smiski.com`, `www.smiski.com`, `trends.google.com`, `www.reddit.com` and `oauth.reddit.com` added to
-  `~/.claude/apple/dangerous_allowed_domains.csv` (via the dashboard's Domains tab, or by hand).
 * **Reddit** (still simulated): create a "script" app at <https://www.reddit.com/prefs/apps>, then
   `export REDDIT_CLIENT_ID=... REDDIT_CLIENT_SECRET=...` and `make scrape`. Anonymous `.json` requests get a 403, so the official
   OAuth API is the only route. Keep raw posts private (Reddit's Data API terms). In notebook 03 set `USE_SBERT = True` for sentence
